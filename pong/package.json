@@ -1,0 +1,27 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "pong app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sufferforyourart/pingpong.git"
+  },
+  "keywords": [
+    "ping",
+    "pong"
+  ],
+  "author": "Kurt Logan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sufferforyourart/pingpong/issues"
+  },
+  "homepage": "https://github.com/sufferforyourart/pingpong#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "node-fetch": "^1.7.0"
+  }
+}
