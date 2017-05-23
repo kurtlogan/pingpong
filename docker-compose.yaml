@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ping:
+    build: ./ping
+    ports:
+      - "3000:3000"
+    depends_on:
+      - pong
+  pong:
+    build: ./pong

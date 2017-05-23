@@ -9,4 +9,5 @@ RUN npm install
 
 COPY index.js .
 
-CMD ["node", "index.js"]
+EXPOSE 3001
+CMD ["node", "index.js", "3001"]
